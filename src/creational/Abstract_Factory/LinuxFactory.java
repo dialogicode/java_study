@@ -1,4 +1,4 @@
-package creational.Abstract_Factory;
+package creational.abstract_Factory;
 
 public class LinuxFactory extends ComponentFactory {
 

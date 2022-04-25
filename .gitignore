@@ -1,5 +1,7 @@
 .project
 .classpath
+.idea/
+*.iml
 
 ### Eclipse ###
 .metadata

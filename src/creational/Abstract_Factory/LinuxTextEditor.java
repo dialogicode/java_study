@@ -1,4 +1,4 @@
-package creational.Abstract_Factory;
+package creational.abstract_Factory;
 
 public class LinuxTextEditor extends TextEditor {
 

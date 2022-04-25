@@ -1,4 +1,4 @@
-package creational.Abstract_Factory;
+package creational.abstract_Factory;
 
 public abstract class ComponentFactory { // interface 로 정의해도 된다
 	public abstract Button createButton(String caption);
