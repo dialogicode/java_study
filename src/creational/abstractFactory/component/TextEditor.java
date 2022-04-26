@@ -1,4 +1,4 @@
-package creational.abstract_Factory;
+package creational.abstractFactory.component;
 
 public abstract class TextEditor {
 	protected String value;

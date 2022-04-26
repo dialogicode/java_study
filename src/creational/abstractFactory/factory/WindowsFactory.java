@@ -1,6 +1,8 @@
-package creational.abstract_Factory;
+package creational.abstractFactory.factory;
 
-public class WindowsFactory extends ComponentFactory{
+import creational.abstractFactory.component.*;
+
+public class WindowsFactory extends ComponentFactory {
 
 	@Override
 	public Button createButton(String caption) {
@@ -16,5 +18,5 @@ public class WindowsFactory extends ComponentFactory{
 	public TextEditor creatTextEditor(String value) {
 		return new WindowsTextEditor(value);
 	}
-	
+
 }

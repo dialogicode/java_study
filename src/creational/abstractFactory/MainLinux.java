@@ -1,6 +1,12 @@
-package creational.abstract_Factory;
+package creational.abstractFactory;
 
-public class MainEntry {
+import creational.abstractFactory.component.Button;
+import creational.abstractFactory.component.CheckBox;
+import creational.abstractFactory.component.TextEditor;
+import creational.abstractFactory.factory.ComponentFactory;
+import creational.abstractFactory.factory.LinuxFactory;
+
+public class MainLinux {
 	public static void main(String[] args) {
 		ComponentFactory factory = new LinuxFactory();
 

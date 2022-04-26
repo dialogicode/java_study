@@ -1,4 +1,4 @@
-package creational.abstract_Factory;
+package creational.abstractFactory.component;
 
 public class WindowsButton extends Button {
 
@@ -7,8 +7,8 @@ public class WindowsButton extends Button {
 	}
 
 	@Override
-	void render() {
+	public void render() {
 		System.out.println("Windows 랜더링 API를 이용해 " + this.caption + " 버튼을 그립니다.");
 	}
-	
+
 }

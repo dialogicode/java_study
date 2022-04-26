@@ -1,4 +1,4 @@
-package creational.abstract_Factory;
+package creational.abstractFactory.component;
 
 public abstract class Button {
 	protected String caption;
@@ -11,5 +11,5 @@ public abstract class Button {
 		System.out.println(caption + " 버튼을 클릭했습니다.");
 	}
 
-	abstract void render();
+	public abstract void render();
 }

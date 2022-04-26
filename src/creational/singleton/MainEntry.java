@@ -14,5 +14,8 @@ public class MainEntry {
 
 		if (king == king2) System.out.println("same object");
 		else System.out.println("differnt object");
+
+		System.out.println(king);
+		System.out.println(king2);
 	}
 }

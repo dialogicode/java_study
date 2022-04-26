@@ -1,4 +1,4 @@
-package creational.abstract_Factory;
+package creational.abstractFactory.component;
 
 public class LinuxButton extends Button {
 
@@ -7,8 +7,8 @@ public class LinuxButton extends Button {
 	}
 
 	@Override
-	void render() {
+	public void render() {
 		System.out.println("Linux 랜더링 API를 이용해 " + this.caption + " 버튼을 그립니다.");
 	}
-	
+
 }

@@ -1,4 +1,4 @@
-package creational.abstract_Factory;
+package creational.abstractFactory.component;
 
 public abstract class CheckBox {
 	protected boolean bChecked;
@@ -7,10 +7,10 @@ public abstract class CheckBox {
 		this.bChecked = bChecked;
 	}
 
-	void setChecked(boolean bChecked){
+	public void setChecked(boolean bChecked) {
 		this.bChecked = bChecked;
 		render();
 	}
 
-	abstract void render();
+	public abstract void render();
 }

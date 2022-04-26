@@ -1,4 +1,6 @@
-package creational.abstract_Factory;
+package creational.abstractFactory.factory;
+
+import creational.abstractFactory.component.*;
 
 public class LinuxFactory extends ComponentFactory {
 
@@ -16,5 +18,5 @@ public class LinuxFactory extends ComponentFactory {
 	public TextEditor creatTextEditor(String value) {
 		return new LinuxTextEditor(value);
 	}
-	
+
 }
