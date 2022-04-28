@@ -27,5 +27,4 @@ public class CaptionDisplayArticle extends DisplayArticleTemplate {
 	protected void footer() {
 		System.out.println("FOOTER: " + article.getFooter());
 	}
-	
 }

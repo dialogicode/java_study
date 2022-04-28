@@ -1,13 +1,13 @@
 package behavioural.iterator;
 
 public class Array implements Aggregator {
-	private Item[] items;
+	private final Item[] items;
 
-	public Array(Item[] items){
+	public Array(Item[] items) {
 		this.items = items;
 	}
 
-	public Item getItem(int index){
+	public Item getItem(int index) {
 		return items[index];
 	}
 
@@ -17,8 +17,6 @@ public class Array implements Aggregator {
 
 	@Override
 	public Iterator iterator() {
-			return new ArrayIterator(this);
+		return new ArrayIterator(this);
 	}
-
-	
 }

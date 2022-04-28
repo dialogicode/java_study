@@ -2,7 +2,7 @@ package behavioural.template_method;
 
 import java.util.ArrayList;
 
-public class MainEntry {
+public class Main {
 	public static void main(String[] args) {
 		String title = "디자인 패턴";
 
@@ -21,7 +21,7 @@ public class MainEntry {
 		style1.display();
 
 		System.out.println();
-		
+
 		System.out.println("[Case-2]");
 		DisplayArticleTemplate style2 = new CaptionDisplayArticle(article);
 		style2.display();

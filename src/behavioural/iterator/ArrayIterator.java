@@ -1,18 +1,12 @@
 package behavioural.iterator;
 
 public class ArrayIterator implements Iterator {
-	private Array array;
+	private final Array array;
 	private int index;
 
-	
 	public ArrayIterator(Array array) {
 		this.array = array;
 		this.index = -1;
-	}
-
-	@Override
-	public Object current() {
-		return array.getItem(index);
 	}
 
 	@Override
@@ -20,5 +14,9 @@ public class ArrayIterator implements Iterator {
 		index++;
 		return index < array.getCount();
 	}
-	
+
+	@Override
+	public Object current() {
+		return array.getItem(index);
+	}
 }
