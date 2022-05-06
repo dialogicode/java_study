@@ -14,8 +14,8 @@ public class SimpleDisplay implements Display {
 
 	@Override
 	public void content(Draft draft) {
-		var content = draft.getContent();
-		for (var i = 0; i < content.length; i++) {
+		String[] content = draft.getContent();
+		for (int i = 0; i < content.length; i++) {
 			System.out.println(content[i]);
 		}
 	}

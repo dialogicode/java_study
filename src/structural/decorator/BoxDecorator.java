@@ -27,16 +27,18 @@ public class BoxDecorator extends Decorator {
 
 		if (index == 0 || index == getLinesCount() - 1) {
 			sb.append('+');
-			sb.append("-".repeat(maxWidth - 2));
+			for (int i = 0; i < maxWidth - 2; i++) {
+				sb.append("-");
+			}
 			sb.append('+');
 		} else {
 			sb.append('|');
 			sb.append(item.getString(index - 1));
-			sb.append(" ".repeat(maxWidth - getLength(index - 1)));
+			for (int i = 0; i < maxWidth - getLength(index - 1); i++) {
+				sb.append(" ");
+			}
 			sb.append('|');
-
 		}
-
 		return sb.toString();
 	}
 }

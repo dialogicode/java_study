@@ -15,7 +15,7 @@ public class CaptionDisplay implements Display {
 	@Override
 	public void content(Draft draft) {
 		System.out.println("내용 : ");
-		var content = draft.getContent();
+		String[] content = draft.getContent();
 		for (int i = 0; i < content.length; i++) {
 			System.out.println("  " + content[i]);
 		}

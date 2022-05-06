@@ -15,7 +15,7 @@ public class Folder extends Unit {
 	public int getSize() {
 		int size = 0;
 
-		for (var it : unitList) {
+		for (Unit it : unitList) {
 			size += it.getSize();
 		}
 
