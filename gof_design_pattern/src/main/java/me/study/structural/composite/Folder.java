@@ -4,8 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Folder extends Unit {
-	private final LinkedList<Unit> unitList =
-			new LinkedList<>();
+	private LinkedList<Unit> unitList = new LinkedList<>();
 
 	public Folder(String name) {
 		super(name);
@@ -35,11 +34,11 @@ public class Folder extends Unit {
 		if (unit instanceof File) {
 			System.out.println(indent + unit);
 		} else {
-			Folder dir = (Folder) unit;
-			Iterator<Unit> it = dir.unitList.iterator();
 			System.out.println(indent + "+ " + unit);
+			
+			Iterator<Unit> it = ((Folder) unit).unitList.iterator();
 			while (it.hasNext()) {
-				list(indent + "    ", it.next());
+				list(indent + "\t", it.next());
 			}
 		}
 	}

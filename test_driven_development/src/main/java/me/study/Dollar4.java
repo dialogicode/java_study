@@ -1,12 +1,15 @@
 package me.study;
 
 public class Dollar4 {
+	private final int amount;
 
-	private int amount;
+	public Dollar4(int amount) {
+		this.amount = amount;
+	}
 
-	public Dollar4(int amount) { this.amount = amount; }
-
-	Dollar4 times(int multiplier) { return new Dollar4(amount * multiplier); }
+	Dollar4 times(int multiplier) {
+		return new Dollar4(amount * multiplier);
+	}
 
 	@Override
 	public boolean equals(Object obj) {

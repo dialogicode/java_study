@@ -1,10 +1,8 @@
 package me.study;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class Money8Test {
 	@Test
@@ -21,7 +19,7 @@ public class Money8Test {
 		Money8 dollarFive = Money8.dollar(5);
 		assertEquals(Money8.dollar(10), dollarFive.times(2));
 		assertEquals(Money8.dollar(15), dollarFive.times(3));
-		
+
 		Money8 francFive = Money8.franc(5);
 		assertEquals(Money8.franc(10), francFive.times(2));
 		assertEquals(Money8.franc(15), francFive.times(3));

@@ -1,2 +1,4 @@
-server:
-    port: 12501
+spring:
+  http:
+    encoding:
+      charset: UTF-8

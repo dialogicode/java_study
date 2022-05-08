@@ -27,5 +27,4 @@ class Dollar4Test {
 
 	- 테스트 고친 후 : Dollar의 amount 인스턴스 변수를 사용하는 코드는 Dollar 자신밖에 남지 않음
 		: private로 변경
-
  */

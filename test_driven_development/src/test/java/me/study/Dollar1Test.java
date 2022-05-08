@@ -1,8 +1,8 @@
 package me.study;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Dollar1Test {
 	@Test
@@ -59,5 +59,4 @@ public class Dollar1Test {
 		: 상수를 변수로
 		: 일반화
 	5. 테스트 완료
-	
  */

@@ -1,10 +1,8 @@
 package me.study;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class Franc5Test {
 	@Test
@@ -23,5 +21,5 @@ public class Franc5Test {
 
 /* 5장. 솔직히 말하자면
 	- 다중 통화를 지원하기 위해 Fran 클래스 생성
-		: Dollar 클래스를 복사	
+		: Dollar 클래스를 복사
 */
