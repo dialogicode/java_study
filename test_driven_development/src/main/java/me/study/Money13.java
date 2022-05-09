@@ -25,8 +25,8 @@ public class Money13 implements Expression13 {
 		return new Money13(amount * multiplier, currency);
 	}
 
-	Expression13 plus(Money13 added) {
-		return new Money13(amount + added.amount, currency);
+	Expression13 plus(Money13 addend) {
+		return new Sum13(this, addend);
 	}
 
 	String currency() {
@@ -48,7 +48,17 @@ public class Money13 implements Expression13 {
 }
 
 class Bank13 {
-	Money13 reduce(Expression12 source, String to) {
+	Money13 reduce(Expression13 source, String to) {
 		return Money13.dollar(10);
+	}
+}
+
+class Sum13 implements Expression13 {
+	Money13 augend;
+	Money13 addend;
+
+	public Sum13(Money13 augend, Money13 addend) {
+		this.augend = augend;
+		this.addend = addend;
 	}
 }
