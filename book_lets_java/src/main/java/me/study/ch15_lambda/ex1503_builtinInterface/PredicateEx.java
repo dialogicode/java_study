@@ -1,4 +1,4 @@
-package ch15_lambda.ex1503_builtinInterface;
+package me.study.ch15_lambda.ex1503_builtinInterface;
 
 import java.util.function.Predicate;
 
@@ -21,7 +21,7 @@ public class PredicateEx {
 		System.out.println("컴공과 평균 수학 점수 : " + avg2);
 	}
 
-	private static double avgEng (Predicate<Student> predicate) {
+	private static double avgEng(Predicate<Student> predicate) {
 		int count = 0;
 		int sum = 0;
 		for (Student student : list) {
@@ -34,7 +34,7 @@ public class PredicateEx {
 		return (double) sum / count;
 	}
 
-	private static double avgMath (Predicate<Student> predicate) {
+	private static double avgMath(Predicate<Student> predicate) {
 		int count = 0;
 		int sum = 0;
 		for (Student student : list) {

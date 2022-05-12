@@ -1,4 +1,4 @@
-package ch17_thread.ex1702_threadCreate;
+package me.study.ch17_thread.ex1702_threadCreate;
 
 public class ThreadCreate1 {
 	public static void main (String[] args) {

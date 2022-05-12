@@ -1,4 +1,4 @@
-package ch15_lambda.ex1503_builtinInterface;
+package me.study.ch15_lambda.ex1503_builtinInterface;
 
 // FunctionEx, OperatorEx, PredicateEx 에서 사용할 객체 클래스 정의
 

@@ -1,4 +1,4 @@
-package ch15_lambda.ex1503_builtinInterface;
+package me.study.ch15_lambda.ex1503_builtinInterface;
 
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
