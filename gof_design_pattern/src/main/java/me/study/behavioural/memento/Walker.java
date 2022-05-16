@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Walker {
 	private final int targetX;
 	private final int targetY;
-	private ArrayList<String> actionList = new ArrayList<>();
+	private ArrayList<String> actionList = new ArrayList<String>();
 	private int currentX, currentY;
 
 	public Walker(int currentX, int currentY, int targetX, int targetY) {
@@ -47,7 +47,7 @@ public class Walker {
 		return actionList.toString();
 	}
 
-	public class Memento {
+	class Memento {
 		private int x, y;
 		private ArrayList<String> actionList;
 
