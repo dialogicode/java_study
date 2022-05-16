@@ -7,4 +7,7 @@
     <string name="button_label_count">Count</string>
     <!-- 직접 제작 -->
     <string name="toast_message">Hello Toast!</string>
+    <string name="ready_to_start">I am ready to start work!</string>
+    <string name="start_task">Start Task</string>
+    <string name="napping">Napping...</string>
 </resources>
