@@ -1,3 +1,4 @@
 <resources>
+    <!-- 응용 프로그램의 이름을 지정하는 문자열 리소스 -->
     <string name="app_name">Android_Fundamentals</string>
 </resources>

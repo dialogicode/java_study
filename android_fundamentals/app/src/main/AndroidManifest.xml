@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="me.study">
 
@@ -13,8 +14,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Fundamentals"
         tools:targetApi="31">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".unit1.Lesson11_HelloLog"
+            android:exported="false" />
+
+        <activity
+            android:name=".unit1.Lesson12_HelloToast"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
