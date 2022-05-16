@@ -1,4 +1,10 @@
 <resources>
     <!-- 응용 프로그램의 이름을 지정하는 문자열 리소스 -->
     <string name="app_name">Android_Fundamentals</string>
+    <!-- Extract string resource 로 생성 -->
+    <string name="button_label_toast">Toast</string>
+    <string name="count_initial_value">0</string>
+    <string name="button_label_count">Count</string>
+    <!-- 직접 제작 -->
+    <string name="toast_message">Hello Toast!</string>
 </resources>
