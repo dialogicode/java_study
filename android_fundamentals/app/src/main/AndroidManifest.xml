@@ -11,19 +11,11 @@
 		android:label="@string/app_name"
 		android:roundIcon="@mipmap/ic_launcher_round"
 		android:supportsRtl="true"
-		android:theme="@style/Theme.Android_Fundamentals"
+		android:theme="@style/AppTheme"
 		tools:targetApi="31">
-
+		<!--android:theme="@style/Theme.Android_Fundamentals"-->
 		<activity
-			android:name=".unit1.Lesson12_HelloToast"
-			android:exported="false" />
-
-		<activity
-			android:name=".unit1.Lesson11_HelloLog"
-			android:exported="false" />
-
-		<activity
-			android:name=".unit7.Lesson71_SimpleAsyncTask"
+			android:name=".unit4.Lesson91"
 			android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
@@ -31,5 +23,17 @@
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
+
+
+		<activity
+			android:name=".unit1.Lesson11_HelloLog"
+			android:exported="false" />
+		<activity
+			android:name=".unit1.Lesson12_HelloToast"
+			android:exported="false" />
+		<activity
+			android:name=".unit3.Lesson71_SimpleAsyncTask"
+			android:exported="false" />
 	</application>
+
 </manifest>
