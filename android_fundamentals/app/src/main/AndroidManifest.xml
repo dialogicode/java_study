@@ -3,6 +3,10 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	package="me.study">
 
+	<!-- 네트워크 사용을 위해 권한 허가 필요 -->
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
 	<application
 		android:allowBackup="true"
 		android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,27 +17,35 @@
 		android:supportsRtl="true"
 		android:theme="@style/AppTheme"
 		tools:targetApi="31">
-		<!--android:theme="@style/Theme.Android_Fundamentals"-->
+
 		<activity
-			android:name=".unit4.Lesson91"
+			android:name=".unit3.Lesson722_WhoWroteItLoader"
 			android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
 
-
 		<activity
 			android:name=".unit1.Lesson11_HelloLog"
 			android:exported="false" />
+
 		<activity
 			android:name=".unit1.Lesson12_HelloToast"
 			android:exported="false" />
+
 		<activity
 			android:name=".unit3.Lesson71_SimpleAsyncTask"
 			android:exported="false" />
+
+		<activity
+			android:name=".unit3.Lesson721_WhoWroteIt"
+			android:exported="false" />
+
+		<activity
+			android:name=".unit4.Lesson91_HelloSharedPrefs"
+			android:exported="false"/>
 	</application>
 
 </manifest>

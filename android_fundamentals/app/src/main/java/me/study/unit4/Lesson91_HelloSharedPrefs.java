@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import me.study.R;
 
-public class Lesson91 extends AppCompatActivity {
+public class Lesson91_HelloSharedPrefs extends AppCompatActivity {
 	// Current count
 	private int mCount = 0;
 	// Current background color
