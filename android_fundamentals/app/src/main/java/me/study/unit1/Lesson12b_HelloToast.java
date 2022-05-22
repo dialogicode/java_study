@@ -1,22 +1,22 @@
 package me.study.unit1;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import me.study.R;
 
-public class Lesson12_HelloToast extends AppCompatActivity {
+public class Lesson12b_HelloToast extends AppCompatActivity {
 	private int mCount = 0;
 	private TextView mShowCount;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_lesson12);
+		setContentView(R.layout.activity_lesson12b);
 
 		/*  part 01.2
 		 *

@@ -20,7 +20,7 @@ import org.json.JSONObject;
 
 import me.study.R;
 
-public class Lesson722_WhoWroteItLoader extends AppCompatActivity
+public class Lesson72b_WhoWroteItLoader extends AppCompatActivity
 		implements LoaderManager.LoaderCallbacks<String> {
 
 	private EditText mBookInput;
@@ -30,7 +30,7 @@ public class Lesson722_WhoWroteItLoader extends AppCompatActivity
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_lesson722);
+		setContentView(R.layout.activity_lesson72b);
 
 		mBookInput = (EditText) findViewById(R.id.bookInput);
 		mTitleText = (TextView) findViewById(R.id.titleText);

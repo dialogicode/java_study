@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/abc1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:visibility="visible"
+	tools:context=".unit1.Lesson12b_HelloToast">
+
+	<TextView
+		android:id="@+id/show_count"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:gravity="center"
+		android:text="@string/count_initial_value"
+		android:textColor="@color/purple_500"
+		android:textSize="160sp"
+		android:textStyle="bold"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/button_toast"
+		app:layout_constraintBottom_toTopOf="@+id/button_count"
+		app:layout_constraintVertical_bias="0.0" />
+
+	<Button
+		android:id="@+id/button_toast"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="5dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginEnd="5dp"
+		android:backgroundTint="@color/purple_200"
+		android:text="@string/button_label_toast"
+		android:textColor="@color/black"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		android:onClick="showToast" />
+		<!-- Activity 클래스 내부의 showToast 함수 작동 -->
+
+	<Button
+		android:id="@+id/button_count"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="5dp"
+		android:layout_marginEnd="5dp"
+		android:layout_marginBottom="5dp"
+		android:backgroundTint="@color/purple_200"
+		android:text="@string/button_label_count"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0"
+		app:layout_constraintStart_toStartOf="parent"
+		android:onClick="countUp"/>
+		<!-- Activity 클래스 내부의 countUp 함수 작동 -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

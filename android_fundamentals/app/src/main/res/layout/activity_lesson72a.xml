@@ -6,7 +6,7 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	android:layout_margin="16dp"
-	tools:context=".unit3.Lesson721_WhoWroteIt">
+	tools:context=".unit3.Lesson72a_WhoWroteIt">
 
 	<TextView
 		android:layout_width="match_parent"

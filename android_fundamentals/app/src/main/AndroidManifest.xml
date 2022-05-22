@@ -19,7 +19,7 @@
 		tools:targetApi="31">
 
 		<activity
-			android:name=".unit3.Lesson722_WhoWroteItLoader"
+			android:name=".unit1.Lesson12b_HelloToast"
 			android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
@@ -32,7 +32,7 @@
 			android:exported="false" />
 
 		<activity
-			android:name=".unit1.Lesson12_HelloToast"
+			android:name=".unit1.Lesson12a_HelloToast"
 			android:exported="false" />
 
 		<activity
@@ -40,7 +40,11 @@
 			android:exported="false" />
 
 		<activity
-			android:name=".unit3.Lesson721_WhoWroteIt"
+			android:name=".unit3.Lesson72a_WhoWroteIt"
+			android:exported="false" />
+
+		<activity
+			android:name=".unit3.Lesson72b_WhoWroteItLoader"
 			android:exported="false" />
 
 		<activity

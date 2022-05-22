@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import me.study.R;
 
-public class Lesson721_WhoWroteIt extends AppCompatActivity {
+public class Lesson72a_WhoWroteIt extends AppCompatActivity {
 	private EditText mBookInput;
 	private TextView mTitleText;
 	private TextView mAuthorText;
@@ -21,7 +21,7 @@ public class Lesson721_WhoWroteIt extends AppCompatActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_lesson721);
+		setContentView(R.layout.activity_lesson72a);
 
 		mBookInput = (EditText) findViewById(R.id.bookInput);
 		mTitleText = (TextView) findViewById(R.id.titleText);
